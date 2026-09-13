@@ -30,8 +30,7 @@ verifie: 2026-09-13
 - Temps de maintien du clic pour réanimer : 40 ticks = 2 secondes (`rescueActionTicks = 40`) [c].
 - À la réanimation : 1 cœur de vie, 5 points de faim, effets Faim (30s) + Faiblesse (60s) appliqués
   (`rescueRespawnHealth = 1`, `rescueRespawnFoodLevel = 5`, `rescueRespawnEffects`) [c].
-- Minuteur continue même hors ligne : `continueTimerWhileOffline = false` (le joueur K.O. qui se
-  déconnecte voit son minuteur suspendu) [c].
+- Joueur K.O. qui se déconnecte : minuteur suspendu jusqu'à son retour (`continueTimerWhileOffline = false`) [c].
 - Chute dans la lave = mort instantanée, pas de phase K.O. (`instantDeathSources = ["minecraft:lava"]`) [c].
 - Joueur K.O. reste visible à travers les blocs (`glowOnKnockout = true`) [c].
 - Joueur K.O. : commandes autorisées (`allowCommands = true`), téléportation autorisée

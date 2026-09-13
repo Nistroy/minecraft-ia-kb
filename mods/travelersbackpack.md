@@ -27,9 +27,9 @@ verifie: 2026-09-13
 - Tuyau `hose` + Buse `hose_nozzle`, Réservoir de sac à dos `backpack_tank` [j].
 
 ## Mécaniques
-- Équipement : clic droit en main = ouvrir, bouton « Equip » dans le GUI = porter sur le dos ; touche B par
-  défaut pour ouvrir le sac équipé [m].
-- Montée en tier : Cuir (gabarit) + sac du tier visé + item de mise à niveau, sur Table de Forge [m,j].
+- Équipement : clic droit en main principale = ouvrir, bouton « Equip » dans le GUI = porter sur le dos [m].
+- 5 tiers (Leather, Iron, Gold, Diamond, Netherite) : chaque tier ajoute stockage + slots d'upgrade et
+  d'outils ; montée de tier à la table de forgeron [m].
 - Void Upgrade + Pickup Upgrade combinés = filtre d'objets à jeter automatiquement à la récup [m].
 - Magnet Upgrade attire les items au sol dans un rayon de 5 blocs, vérifié toutes les 10 ticks [c].
 - Sac de couchage utilisable sans le déséquiper (`quickSleepingBag: true`), mais ne change pas le point de
@@ -39,8 +39,8 @@ verifie: 2026-09-13
 
 ## Config serveur
 - Sac increvable et ne disparaît jamais au sol (`invulnerableBackpack: true`) [c].
-- Protection vide : pas de perte dans le vide, réapparaît flottant au-dessus du monde
-  (`voidProtection: true`) [c].
+- Protection vide : mort dans le vide → le sac ne disparaît pas, il réapparaît flottant au-dessus du Y
+  minimum du monde (`voidProtection: true`) [c].
 - Sac déposé automatiquement à l'endroit de la mort du joueur (`backpackDeathPlace: true`, sans remplacer
   les blocs solides : `backpackForceDeathPlace: false`) [c].
 - Coffres shulker interdits dans le sac (`allowShulkerBoxes: false`) [c].

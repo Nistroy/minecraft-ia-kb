@@ -37,11 +37,8 @@ verifie: 2026-09-13
   seule, contrairement au défaut usine de 1800s) [c].
 - Récupération gratuite : `unlocking_cost.type: "free"` (pas de coût XP/item pour ouvrir sa tombe) [c].
 - XP stocké à 100% (`experience_type: "percent_points"`, `100.0`) [c].
-- Un joueur mort dans le vide ne génère pas de tombe (comportement du mod, message dédié dans les
-  traductions) [j].
-- Mort en PvP (tué par un autre joueur) : le mod a un message dédié « pas de tombe créée, items tombent
-  au sol » (comportement distinct de la mort classique, cause exacte de la restriction non détaillée dans
-  la doc dispo) [j].
+- Le tueur ne contourne pas la protection de la tombe (`attackers_bypass_protection: false`) [c].
+- Aucune annulation de tombe selon le type d'attaquant (`cancel_creation_for_ignored_attacker_types` vide) [c].
 - Pas de limite de tombes par joueur (`player_grave_limit: -1`) [c].
 
 ## Pièges
