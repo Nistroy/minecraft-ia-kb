@@ -14,11 +14,11 @@ verifie: 2026-09-13
 Gros datapack (23,7 Mo), `client_side: optional`, `server_side: required`. Namespace worldgen `nova_structures`, namespace items/lang/avancements `dnt`. Lang fr_fr complète dans le jar. [j,m]
 
 ## Mécaniques
-- Système de quête : un cartographe tavernier échangé dans une taverne donne accès à une carte de quête (avancement `tavern_quest`). [j]
+- Quête : échanger avec un cartographe tavernier (Tavern Cartographer) donne accès à une carte de quête (advancement « Appel à l'aventure », `tavern_quest`). [j]
 - Clés de donjon par structure : `citadel_key`/`citadel_boss_key`, `end_castle_key`, `end_ship_key`, `nether_keep_key`, `ominous_swamp_village_key`, `ominous_toxic_key`/`toxic_key`/`toxic_boss_key`, `piglin_donjon_key`, `piglin_outstation_key`, `shrine_key`, `trident_trial_key`/`trident_trial_boss_key`, `creeper_key` — ouvrent des coffres/portes spécifiques à leur structure. [j]
-- Minibosses uniques par structure (avancement `kill_all_minibosses`) : boss breeze (repère lié au froid), boss araignée de caverne (« Reine araignée », repère toxique), ancien gardien (structure océanique), fantôme du château de l'End (« tourment »). [j]
+- Minibosses dans certaines structures ; advancement « C'est moi le Maître de jeu » (`kill_all_minibosses`) = tuer chaque miniboss du mod une fois. Liste des minibosses non documentée dans le jar. [j]
 - Cartes d'exploration en loot (`filled_map.dnt.*`) pour de nombreuses structures : hameau/donjon/avant-poste de Piglins, avant-poste de pillards, cité ancienne, villa de sorcière, avant-poste minier des badlands, refuge d'illageois, village, crypte de morts-vivants, monument des épreuves du Trident, repère toxique, fort vagabond, citadelle isolée, ruines de la jungle, manoir d'illageois, ruines du désert, crypte sifflante, phare/château de l'End. [j]
-- Potions/flèches custom : lévitation, nausée, décomposition (wither), cécité persistante — trouvées en loot de certaines structures. [j]
+- Potions/flèches custom : lévitation, nausée, décomposition (wither), cécité persistante. [j]
 
 ## Ajoute
 - 136 fichiers de structure (`data/nova_structures/worldgen/structure/`), thèmes principaux :
