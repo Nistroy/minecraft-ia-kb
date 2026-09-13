@@ -15,7 +15,9 @@ verifie: 2026-09-13
 
 ## Ajoute
 - Short Door (porte courte, 1 bloc de haut) par essence vanilla (oak, spruce, birch, jungle, acacia,
-  dark_oak, mangrove, bamboo, cherry, pale_oak, crimson, warped) : `dramaticdoors:short_<essence>_door` [j,m].
+  dark_oak, mangrove, bamboo, cherry, crimson, warped) : `dramaticdoors:short_<essence>_door` [j,m].
+- Le jar contient aussi `short/tall_pale_oak_door`, mais le chêne pâle n'existe qu'à partir de MC 1.21.4 : pas
+  de chêne pâle sur notre serveur 1.21.1 [j].
 - Tall Door (porte haute, 3 blocs) mêmes essences : `dramaticdoors:tall_<essence>_door` [j,m].
 - Fer et cuivre (+ tous états d'oxydation et versions cirées) en short/tall :
   `dramaticdoors:short_iron_door`, `tall_iron_door`, `short_copper_door` ... `tall_waxed_oxidized_copper_door` [j].

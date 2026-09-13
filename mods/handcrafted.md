@@ -30,8 +30,8 @@ verifie: 2026-09-13
   `tropical_fish_trophy`, `silverfish_trophy` [j].
 - Bordures déco (corner/pillar trim) sur pierres vanilla : andesite, blackstone, bricks, calcite,
   deepslate, diorite, dripstone, granite, quartz, sandstone, stone [j].
-- Items : Cushion (coussin, 16 couleurs), Sheet (drap/tissu mural, 16 couleurs), Hammer (Marteau,
-  outil de placement/rotation du mobilier), Fancy Painting (tableau déco) [j].
+- Items : Cushion (coussin, 16 couleurs), Sheet (drap/tissu mural, 16 couleurs), Hammer (marteau ; usage
+  non documenté dans le jar), Fancy Painting (tableau déco) [j].
 
 ## Mécaniques
 - Trophées de mobs : blocs muraux décoratifs représentant les mobs listés ci-dessus, un par mob [j].
