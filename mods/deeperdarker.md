@@ -14,7 +14,7 @@ verifie: 2026-09-13
 ---
 
 ## Ajoute
-- Dimension `deeperdarker:otherside`, accessible par portail (`otherside_portal`, comme un portail du Nether en pierre de sculk). [j]
+- Dimension `deeperdarker:otherside` (« sous la bedrock » selon l'advancement), accessible par un portail `deeperdarker:otherside_portal` ; salles de portail dans le sous-sol du Temple antique. Construction du cadre non documentée dans le jar ni sur Modrinth. [j]
 - 4 biomes : Cavernes fleuries (`blooming_caverns`), Terres profondes (`deeplands`), Forêt en écho (`echoing_forest`), Colonnes voilées (`overcast_columns`). [j]
 - 1 structure : Temple antique (`ancient_temple`), contient un Ancien vase (`ancient_vase`, peut faire apparaître mobs/sangsues de sculk). [j,c]
 - Mobs : Mille-pattes de sculk (`sculk_centipede`), Sangsue de sculk (`sculk_leech`), Mordeur de sculk (`sculk_snapper`), Ver hurleur (`shriek_worm`), Stalker (`stalker`), Shattered (`shattered`). Pas de boss identifié (aucune barre de vie dédiée dans le jar). [j]

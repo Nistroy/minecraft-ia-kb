@@ -30,12 +30,11 @@ verifie: 2026-09-13
   jus de melon, glace à la pastèque [j].
 
 ## Mécaniques
-- Marmite `cooking_pot` : cuisine des ragoûts/soupes en grande quantité (nourrit plusieurs joueurs) [j].
+- Marmite `cooking_pot` : cuisine les plats du mod (ragoûts, soupes, pâtes…) [j].
 - Planche à découper `cutting_board` : découpe rapide (viandes en tranches, légumes) avec un couteau ;
   message si outil incorrect ou item non découpable [j].
 - Poêle à frire `skillet` : cuisson à la poêle, impossible sous l'eau [j].
-- Riz sur corde / tomate sur corde : les cultures grimpantes ont besoin d'une corde taguée (par défaut
-  `farmersdelight:rope`) [c].
+- Tomates grimpantes : ont besoin d'une corde (bloc du tag configuré, par défaut `farmersdelight:rope`) [c].
 - Terre fertile `rich_soil` : chance de boost de croissance des cultures (20% par défaut) [c].
 
 ## Config serveur
