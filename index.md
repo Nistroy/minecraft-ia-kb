@@ -1,0 +1,72 @@
+# Index des mods
+
+Généré par `minecraft-ia kb index` depuis les fiches. Ne pas éditer.
+
+- `aether` — The Aether — Dimension du ciel (îles flottantes), 3 donjons + boss, portail en pierre lumineuse — ns: aether
+- `amendments` — Amendments — Tweaks de blocs vanilla (chaudrons, lanternes, bougies, tapis, gâteaux...), sans nouveau contenu — ns: amendments
+- `aquamirae` — Aquamirae — Cimetière de navires + créatures des abysses, boss Capitaine Cornelia — ns: aquamirae
+- `better-than-mending` — BetterThanMending — Réparation par Mending devient manuelle - shift + clic droit pour dépenser son XP et réparer l'objet — ns: betterthanmending
+- `blazeandcaves-advancements-pack` — BlazeandCave's Advancements Pack — datapack, environ 1200 advancements custom en 16 catégories, récompenses via fonctions — ns: blazeandcave, bc_rewards
+- `bosses-of-mass-destruction` — Bosses of Mass Destruction — 4 boss endgame (Night Lich, Obsidilith, Nether Gauntlet, Void Blossom) + arènes générées — ns: bosses_of_mass_destruction
+- `bountiful` — Bountiful — Tableaux de primes générés en village, missions (rapporter un item / tuer des mobs) contre récompenses — ns: bountiful
+- `crafting-tweaks` — Crafting Tweaks — Boutons/raccourcis pour tourner, équilibrer, vider ou (dé)compresser la grille de craft — ns: craftingtweaks
+- `critters-and-companions` — Critters and Companions — Petites créatures vanilla-style (loutre, panda roux, poulpe Dumbo, insectes...) + grappin et laisse en soie — ns: crittersandcompanions
+- `ct-overhaul-village` — ChoiceTheorem's Overhauled Village — Remplace villages + avant-postes pillards vanilla par des versions enrichies : 22 variantes de village en 3 tailles, 12 avant-postes — ns: ctov
+- `deeperdarker` — Deeper and Darker — Dimension Otherside (sculk), équipement Warden, nouveaux mobs de sculk — ns: deeperdarker
+- `do-a-barrel-roll` — Do a Barrel Roll — vol elytre façon simulateur de vol (roulis/tangage/lacet, poussée, dégâts de choc réglables) — ns: do_a_barrel_roll
+- `dramatic-doors` — Dramatic Doors — Portes 1 bloc plus courtes (short) ou 3 blocs de haut (tall), toutes essences + fer/cuivre — ns: dramaticdoors
+- `dungeons-and-taverns` — Dungeons and Taverns — 136 structures overworld/nether/end (donjons, tavernes, camps, ruines) + minibosses, clés, cartes de quête via tavernier — ns: nova_structures, dnt
+- `easy-anvils` — Easy Anvils — Refonte de l'enclume - items ne se perdent plus, coûts plus justes, moins de pénalité de réparation — ns: easyanvils
+- `easy-magic` — Easy Magic — Refonte table d'enchantement - items restent à la fermeture, reroll des enchants possible — ns: easymagic
+- `emotecraft` — Emotecraft — émotes/animations joueur avec roue de sélection rapide, émotes perso importables — ns: emotecraft
+- `enchants-plus` — Enchants Plus — 18 enchantements + 4 malédictions data-driven 1.21, style vanilla, modifie aussi Power/Sharpness/Silk Touch — ns: enchantsplus
+- `enhanced-celestials` — Enhanced Celestials — Évènements lunaires (Lune de Sang, Lune Bleue, Lune de Récolte + versions Super) — ns: enhancedcelestials
+- `explorers-compass` — Boussole de l'explorateur — Objet pour localiser n'importe quelle structure (vanilla ou moddée) via un GUI — ns: explorerscompass
+- `explorify` — Explorify — Datapack de 14 nouvelles petites structures d'exploration (surface, Nether, End), vanilla-friendly — ns: explorify
+- `exposure` — Exposure — appareil photo survie, pellicules à développer en chambre claire, photos encadrées/projetées — ns: exposure
+- `fallingtree` — FallingTree — Coupe un seul bloc de tronc pour abattre tout l'arbre d'un coup, feuilles cassées avec — ns: fallingtree
+- `farmers-delight-refabricated` — Farmer's Delight (Refabricated) — Expansion cuisine/agriculture — nouvelles cultures, marmite/four/planche à découper, ~90 plats — ns: farmersdelight
+- `friends-and-foes` — Friends&Foes — Mobs recalés du mob vote (crabe, moobloom, golems cuivre/tuf, wildfire...) + structures dédiées — ns: friendsandfoes
+- `grind-enchantments` — Grind Enchantments — Ajoute au touret à meuler (grindstone) désenchanter vers un livre + déplacer un enchant entre 2 livres — ns: grindenchantments
+- `handcrafted` — Handcrafted — Mobilier déco (250+ pièces) — chaises, tables, armoires, lits, cuisine, trophées de mobs — ns: handcrafted
+- `hardcore-revival` — Hardcore Revival — À la mort, le joueur passe K.O. au lieu de mourir tout de suite ; un autre joueur peut le réanimer à temps — ns: hardcorerevival
+- `illager-invasion` — Illager Invasion — ~11 nouveaux illagers avec capacités uniques, 5 structures dédiées, table d'imprégnation pour enchants — ns: illagerinvasion
+- `immersive-melodies` — Immersive Melodies — instruments jouables (clavier libre ou mélodie MIDI/ABC importée), audibles par les autres joueurs — ns: immersive_melodies
+- `immersive-paintings` — Immersive Paintings — importer ses propres images comme tableaux/graffitis en jeu (taille, cadre, dither réglables) — ns: immersive_paintings
+- `incendium` — Incendium — Refonte du Nether (8 biomes, structures, boss Hovering Inferno, armes uniques) — ns: incendium
+- `leaves-be-gone` — Leaves Be Gone — Accélère la disparition naturelle des feuilles non reliées à un tronc après avoir coupé l'arbre — ns: leavesbegone
+- `lootr` — Lootr — Chaque joueur a son propre butin par conteneur (coffre/tonneau/shulker/wagonnet) — plus de course au loot — ns: lootr
+- `macaws-bridges` — Macaw's Bridges — Ponts déco par matériau (piles, escaliers, balustrades) + lanterne/torche de pont — ns: mcwbridges
+- `macaws-doors` — Macaw's Doors — Portes déco par essence x ~20 styles (grange, japonaise, moderne...) + herses, porte de garage — ns: mcwdoors
+- `macaws-windows` — Macaw's Windows — Fenêtres/vitraux déco par matériau + volets, stores, rideaux, fentes d'archer, verre unidirectionnel — ns: mcwwindows
+- `moogs-voyager-structures` — Moog's Voyager Structures — 160+ petites/moyennes structures décoratives vanilla-style (puits, maisons, ruines, chariots), loot + ennemis + villageois — ns: mvs
+- `naturalist` — Naturalist — 48 animaux vanilla-style (mammifères, oiseaux, reptiles, poissons, insectes) + blocs déco shellstone/froglass — ns: naturalist
+- `natures-compass` — Boussole de la nature — Objet pour localiser un biome et voir ses infos (température, hauteur, blocs de surface...) — ns: naturescompass
+- `nullscape` — Nullscape — Refonte de l'End vanilla (terrain alien, 3 biomes, structures) — ns: nullscape
+- `ribbits` — Ribbits — Villages de grenouilles-villageois dans les marais, commerce, musique, entretien des cultures — ns: ribbits
+- `rightclickharvest` — Right Click Harvest — Récolter les cultures (vanilla + quasi tout mod) au clic droit, replante auto — ns: rightclickharvest
+- `snow-real-magic` — Snow! Real Magic! — retouche la neige vanilla (gravité, accumulation, fonte, dégâts de chute, blizzards) — ns: snowrealmagic
+- `sparsestructures` — Sparse Structures — Espace toutes les structures (vanilla + modées + datapacks) selon un facteur configurable, aucun ajout de contenu — ns: 
+- `structory-towers` — Structory: Towers — Add-on Structory : 21 tours/avant-postes thématiques par biome, overworld + nether + end, pas de lang FR dans le jar — ns: structory_towers
+- `structory` — Structory — 15 petites structures atmosphériques overworld (ruines, manoir, camps, cimetière), lore léger, pas de lang FR dans le jar — ns: structory
+- `supplementaries` — Supplementaries — Blocs déco/utilitaires vanilla+ à mécaniques (redstone, rangement, gadgets) — des centaines de variantes — ns: supplementaries
+- `tectonic` — Tectonic — Refonte du générateur de terrain overworld (montagnes, rivières souterraines, piliers de jungle), pas de nouveau bloc/structure — ns: tectonic
+- `terralith` — Terralith — 95 biomes overworld (surface + cavernes) + structures custom (villages fortifiés, tours de mage, ruines), datapack pur vanilla — ns: terralith
+- `tidal-towns` — Tidal Towns — Datapack minimal : 1 village flottant en bois flotté sur l'océan — ns: joshie
+- `tide` — Tide — Refonte de la pêche — 102 poissons, minijeu de ferrage, cannes personnalisables, journal, caisses — ns: tide
+- `towns-and-towers` — Towns and Towers — 27 villages + 31 avant-postes pillards par biome (dont variantes exclusives biomes moddés) + village océan naval avec navires — ns: towns_and_towers, kaisyn
+- `trade-cycling` — Trade Cycling — Bouton/touche pour changer les trades d'un villageois n'ayant encore jamais été échangé avec — ns: trade_cycling
+- `travelersbackpack` — Traveler's Backpack — Sacs à dos équipables 5 tiers + upgrades (four, aimant, réservoirs...), +45 skins — ns: travelersbackpack
+- `universal-graves` — Universal Graves — Tombe/coffre de mort customisable, protection temporaire, boussole de mort, GUI /graves — ns: universal_graves
+- `visual-workbench` — Visual Workbench — Tweak visuel — les items posés dans un établi restent visibles/rendus par-dessus, pas de nouveau contenu — ns: visualworkbench
+- `waystones` — Waystones — Blocs de téléportation (waystones) + parchemins/pierres de warp, alternative à /home et /warp — ns: waystones
+- `when-dungeons-arise` — When Dungeons Arise — 39 grandes structures hostiles (illagers, ciel, industriel, mer, antique) + cartes d'exploration — ns: dungeons_arise
+- `yungs-better-desert-temples` — YUNG's Better Desert Temples — Refonte temple du desert : puzzles, pieges, parkour, boss Pharaon, mining fatigue tant que pas nettoye — ns: betterdeserttemples
+- `yungs-better-dungeons` — YUNG's Better Dungeons — Refonte donjons vanilla + 3 nouveaux : Catacombes (zombie), Fortress of the Undead (squelette), Spider Cave — ns: betterdungeons
+- `yungs-better-end-island` — YUNG's Better End Island — Refonte ile centrale de l'End : piliers, gateways, plateforme de spawn, portail au sommet d'une tour — ns: betterendisland
+- `yungs-better-jungle-temples` — YUNG's Better Jungle Temples — Refonte complete du temple de la jungle : nouveau design, pieges, puzzles, loot — ns: betterjungletemples
+- `yungs-better-mineshafts` — YUNG's Better Mineshafts — Mineshafts abandonnes refaits en reseaux de tunnels varies, 13 variantes de biome, ateliers abandonnes, gisements de minerai — ns: bettermineshafts
+- `yungs-better-nether-fortresses` — YUNG's Better Nether Fortresses — Fortresse du Nether agrandie : reseaux de ponts, le Keep, les Lava Halls en profondeur — ns: betterfortresses
+- `yungs-better-ocean-monuments` — YUNG's Better Ocean Monuments — Monument oceanique plus grand, layout aleatoire, meilleur loot dont Tridents et Coeur de la Mer — ns: betteroceanmonuments
+- `yungs-better-strongholds` — YUNG's Better Strongholds — Refonte complete des strongholds vanilla : 15+ salles, pieges, zones cachees, via YUNG's API — ns: betterstrongholds
+- `yungs-better-witch-huts` — YUNG's Better Witch Huts — Nouvelles cabanes de sorciere (variantes) + cercle de sorciere, loot ameliore, via YUNG's API — ns: betterwitchhuts
