@@ -27,7 +27,7 @@ Pas de traduction FR dans le jar (en_us seulement). `/locate structure betterdes
 
 ## Config serveur
 - `disableVanillaPyramids = true` : temples vanilla desactives, seuls les Better Desert Temples generent. [c]
-- `applyMiningFatigue = true` : mining fatigue active (defaut). [c]
+- `applyMiningFatigue = true` : mining fatigue active. [c]
 
 ## Compat
 - Prevu compatible avec YUNG's Better Mineshafts/Strongholds/Dungeons, YUNG's Extras/Bridges. [m]

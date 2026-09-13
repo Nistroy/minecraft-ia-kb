@@ -28,7 +28,7 @@ Pas de traduction FR dans le jar (en_us seulement). `client_side: unsupported`, 
 - Plage verticale : `minY = -55`, `maxY = 30`. [c]
 - Taux de spawn ajustables : ores (`enabled = true`, poids cobble 50 / coal 20 / iron 9 / redstone 7 / gold 7 /
   lapis 3 / emerald 3 / diamond 1), lanternes/torches/toiles d'araignee, minecarts coffre/TNT, salle villageois zombie
-  (`zombieVillagerRoomSpawnChance = 2`) — valeurs par defaut du mod, non modifiees sur ce serveur. [c]
+  (`zombieVillagerRoomSpawnChance = 2`). [c]
 
 ## Compat
 - Prevu compatible YUNG's Better Strongholds/Dungeons (les deux presents dans le pack), YUNG's Extras/Bridges. [m]

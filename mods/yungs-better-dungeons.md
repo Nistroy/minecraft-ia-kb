@@ -28,7 +28,7 @@ Pas de traduction FR dans le jar (en_us seulement). `client_side: unsupported`, 
 
 ## Config serveur
 - `removeVanillaDungeons = true` : donjons vanilla desactives, remplaces par les Better Dungeons. [c]
-- `enableHeads = true`, `enableNetherBlocks = true` : options actives (defaut). [c]
+- `enableHeads = true`, `enableNetherBlocks = true` : options actives. [c]
 - `smallNetherDungeon.enabled = false` : donjon Nether desactive sur notre serveur. [c]
 - `smallNetherDungeon.witherSkeletonsDropWitherSkulls = true`, `blazesDropBlazeRods = true` (si active un jour). [c]
 - `zombieDungeon.zombieDungeonMaxSurfaceStaircaseLength = 20`, `smallDungeon.chestMinCount/MaxCount = 1/2`. [c]
