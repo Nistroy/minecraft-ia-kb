@@ -4,7 +4,7 @@ nom: Naturalist
 namespaces: [naturalist]
 version: 2.0.3+1.21.1-fabric
 cote: S+C
-resume: 50 mobs vanilla-style (mammifères, oiseaux, reptiles, poissons, insectes) + blocs déco shellstone/froglass
+resume: 48 animaux vanilla-style (mammifères, oiseaux, reptiles, poissons, insectes) + blocs déco shellstone/froglass
 sources:
   m: https://modrinth.com/mod/naturalist
   j: jar naturalist-2.0.3-fabric-1.21.1.jar
@@ -12,32 +12,34 @@ sources:
 verifie: 2026-09-13
 ---
 
+Traduction FR du jar incomplète (fichier ancien) : nom FR en jeu quand il existe, sinon nom anglais en jeu
+(glose FR entre parenthèses). Ids : `naturalist:<id>`. [j]
+
 ## Ajoute
-- 50 entités dans `entity.naturalist.*` (liste en_us du jar, trad FR partielle/absente sur cette version) [j].
-  Mammifères : alligator, ours (`bear`/`black_bear`), sanglier, capybara, chevreuil, éléphant, girafe,
-  hérisson, hippopotame, lion, mammouth, taupe, rhinocéros, tigre, zèbre `naturalist:<id>` [j].
-  Oiseaux : `naturalist:bird` (variantes teintables, remplace les anciens geai/cardinal/moineau/etc.),
-  autruche, vautour, dinde `naturalist:turkey` [j].
-  Reptiles/amphibiens : lézard (+queue détachable `lizard_tail`), serpent, serpent corail, serpent à
-  sonnettes (via `snake` variants), tortue, dragon de Komodo, escargot [j].
-  Poissons/aquatique : bar, poisson-chat, piranha, anglerfish, blobfish, raie, requin blanc, méduse,
-  étoile de mer, palourde (`clam`), crabe [j].
-  Insectes : papillon (+ chenille + chrysalide), libellule, luciole, fourmi, scorpion (désert/jungle),
-  cloporte géant (`giant_isopod`) [j].
-- Blocs déco : Shellstone (brut, taillé, lisse + dalles/escaliers/murets), Greverre/Grevitre (froglass,
-  3 teintes azuré/cramoisi/verdoyant), Roseau à massette `cattail`, Lentilles d'eau `duckweed`,
-  Chrysalide `chrysalis`, œufs de mob (alligator, autruche, escargot, tortue) [j].
-- Items : Filet de capture `naturalist:capture_net` (bambou + ficelle, forme en L), viandes crues/cuites
-  (gibier `bushmeat`, venaison, canard, poisson-chat, bar, queue de lézard), Bois de chevreuil `antler`,
-  Quenouille `cattail_fluff` [j].
+- Mammifères : Ours `bear`, Black Bear `black_bear`, Sanglier `boar`, Capybara `capybara`, Chevreuil `deer`,
+  Éléphant `elephant`, Girafe `giraffe`, Hedgehog `hedgehog` (hérisson), Hippopotame `hippo`, Lion `lion`,
+  Mammoth `mammoth` (mammouth), Mole `mole` (taupe), Rat `rat`, Rhinocéros `rhino`, Tiger `tiger` (tigre),
+  Zèbre `zebra`, Whale `whale` (baleine). [j]
+- Oiseaux : Bird `bird`, Canard `duck`, Autruche `ostrich`, Turkey `turkey` (dinde), Vautour `vulture`. [j]
+- Reptiles : Alligator `alligator`, Komodo Dragon `komodo_dragon`, Lézard `lizard` (+ Queue de lézard
+  `lizard_tail`), Serpent `snake`, Tortue terrestre `tortoise`. [j]
+- Aquatiques : Bar `bass`, Poisson-chat `catfish`, Anglerfish `anglerfish` (baudroie), Blobfish `blobfish`,
+  Clam `clam` (palourde), Crab `crab` (crabe), Great White Shark `great_white_shark` (grand requin blanc),
+  Jellyfish `jellyfish` (méduse), Piranha `piranha`, Ray `ray` (raie), Starfish `starfish` (étoile de mer),
+  Giant Isopod `giant_isopod` (isopode géant). [j]
+- Petites bêtes : Papillon `butterfly`, Chenille `caterpillar`, Libellule `dragonfly`, Luciole `firefly`,
+  Ant `ant` (fourmi), Escargot `snail`, Desert Scorpion `desert_scorpion`, Jungle Scorpion `jungle_scorpion`. [j]
+- Blocs déco : Shellstone (brute, taillée, lisse + dalles/escaliers/murets), Greverre / Grevitre (froglass et
+  vitre, teintes azuré/cramoisi/verdoyant), massette `cattail`, lentilles d'eau `duckweed`, chrysalide
+  `chrysalis`, œufs de mob. [j]
+- Items : filet de capture `naturalist:capture_net`, viandes crues/cuites (dont gibier `bushmeat`, venaison,
+  canard, poisson-chat, bar, queue de lézard), bois de chevreuil `antler`. [j]
 
 ## Mécaniques
-- Filet de capture `naturalist:capture_net` : se craft avec bambou + ficelle (forme en L) [j].
-- Chrysalide `naturalist:chrysalis` : bloc lié au cycle de vie chenille → papillon [j].
-- Chaque mob a sa propre loot table (`data/naturalist/loot_table/entities/`) [j].
+- Filet de capture `naturalist:capture_net` : recette bambou + ficelle. [j]
+- Chrysalide `naturalist:chrysalis` : étape entre chenille et papillon. [j]
+- Chaque mob a sa loot table (`data/naturalist/loot_table/entities/`). [j]
 
 ## Config serveur
-- `server/config/naturalist-server.properties` : tous les `<mob>_removed=false` par défaut chez nous,
-  aucun mob désactivé [c].
-- `parrot_flight=true`, `bird_head_slow_falling=true`, `snail_crushing=false`, `remove_all_bugs=false`
-  (réglages par défaut, insectes/perroquets non touchés) [c].
+- `naturalist-server.properties` : tous les `<mob>_removed=false`, aucun mob désactivé. [c]
+- `parrot_flight=true`, `bird_head_slow_falling=true`, `snail_crushing=false`, `remove_all_bugs=false`. [c]
