@@ -37,7 +37,12 @@ Sections (omettre si vide) :
 - `## Compat` — interactions avec d'autres mods du pack, seulement si sourcée.
 
 Règles :
-- Chaque puce finit par clé(s) de source : `[m]`, `[j]`, `[w,g]`… Pas de source → pas de puce.
+- Frontmatter = YAML valide : valeur contenant `:` → entre guillemets. Fiche invalide = ignorée par le cerveau (log).
+- Chaque puce finit par clé(s) de source définies dans `sources` : `[m]`, `[j]`, `[w,g]`… Fichiers de langue = `[j]`.
+  Pas de source → pas de puce.
+- Nom en jeu exact du jar (`fr_fr` si la clé existe, sinon `en_us` tel quel). Traduction perso seulement entre
+  parenthèses. Mécanique ou chiffre = texte explicite (infobulle, lore, advancement, config, doc), jamais déduit d'un
+  nom de fichier ou de classe.
 - Jamais inventer (nom, id, recette, chiffre). Doute → omettre.
 - Version : infos wiki/GitHub d'une autre version MC/mod → vérifier ou préciser `(v. X)`.
 - Résumer, jamais copier le texte des pages (droits). Recettes détaillées inutiles : DB exacte + EMI en jeu.
