@@ -14,14 +14,15 @@ verifie: 2026-09-13
 ---
 
 ## Ajoute
-- Mob villageois-grenouille `ribbits:ribbit` (pas de trad FR dans le jar), avec métiers : pêcheur,
-  jardinier, marchand, idiot du village (nitwit), sorcier — chacun avec son œuf d'apparition
-  `ribbits:ribbit_<metier>_spawn_egg` [j].
+Pas de traduction FR dans le jar : noms en jeu anglais (glose FR entre parenthèses). [j]
+- Mob Ribbit `ribbits:ribbit` (villageois-grenouille), 5 métiers d'après les œufs d'apparition : Fisherman
+  (pêcheur), Gardener (jardinier), Merchant (marchand), Sorcerer (sorcier), Nitwit (idiot du village) —
+  œufs `ribbits:ribbit_<métier>_spawn_egg` [j].
 - Structure Village Ribbit `ribbits:ribbit_village` [j].
-- Blocs déco : Tabouret/bloc champignon marron et rouge (`brown_toadstool`/`red_toadstool`),
-  Toadstool + tige, Nénuphar géant `giant_lilypad`, Marguerite des marais `swamp_daisy`,
-  Lanterne des marais `swamp_lantern`, Feuille-parapluie `umbrella_leaf`, planches/porte/clôture/dalle/
-  escalier en chêne moussu `mossy_oak_*` [j].
+- Blocs déco : Brown Toadstool Block `brown_toadstool`, Red Toadstool Block `red_toadstool`, Toadstool
+  `toadstool`, Toadstool Stem `toadstool_stem`, Lush Lily Pad `giant_lilypad`, Swamp Daisy `swamp_daisy`,
+  Swamp Lantern `swamp_lantern`, Umbrella Leaf `umbrella_leaf`, Mossy Oak Planks/Stairs/Slab/Fence/Fence
+  Gate/Door (`mossy_oak_*`) [j].
 - Item Maraca `ribbits:maraca` [j].
 
 ## Mécaniques
