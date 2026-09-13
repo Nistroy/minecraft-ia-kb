@@ -20,7 +20,7 @@ Pas de traduction FR dans le jar (en_us seulement). `client_side: unsupported`, 
 - `betterdungeons:zombie_dungeon` = "Catacombs" (advancement "When in Rome" : "Set foot in a Catacomb"). [j]
 - `betterdungeons:skeleton_dungeon` = "Fortress of the Undead" (advancement "A Bone to Pick" : "Enter a Fortress of the Undead"). [j]
 - `betterdungeons:spider_dungeon` = "Spider Cave" (advancement "Cobweb Entanglement"). [j]
-- `betterdungeons:small_nether_dungeon` = petit donjon Nether, feature opt-in (Nether Update 1.19.2+). [m,j]
+- `betterdungeons:small_nether_dungeon` = petit donjon du Nether (depuis la Nether Update 1.19.2). [m,j]
 - Advancement "Professional Dungeoneer" = explorer tous les Better Dungeons. [j]
 
 ## Mecaniques
