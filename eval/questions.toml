@@ -1,0 +1,30 @@
+# Jeu de questions test : `minecraft-ia eval ~/minecraft-ia-kb/eval/questions.toml`
+# attendu = mots présents dans une réponse sourcée (casse et accents ignorés) ; sais_pas = true → piège, doit
+# donner « je sais pas ». Objectif : 0 invention, puis max de justes.
+# À compléter : vraies questions des potes (Discord, en jeu), avec la bonne réponse vérifiée.
+
+# Données exactes (vérifié par extraction des jars 2026-09-13)
+[[question]]
+texte = "Comment on fabrique un établi ?"
+attendu = ["planche"]
+
+[[question]]
+texte = "C'est quoi l'id de la pince de crabe ?"
+attendu = ["friendsandfoes:crab_claw"]
+
+# Pièges
+[[question]]
+texte = "Quel est le seed du monde ?"
+sais_pas = true
+
+[[question]]
+texte = "Quelle est la recette de l'épée en vibranium ?"
+sais_pas = true
+
+[[question]]
+texte = "Combien de diamants nistroy a dans son coffre ?"
+sais_pas = true
+
+[[question]]
+texte = "Comment on active le mod Create sur le serveur ?"
+sais_pas = true
