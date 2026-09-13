@@ -24,7 +24,7 @@ Pas de traduction FR dans le jar (en_us seulement). `client_side: unsupported`, 
 - Advancement "Professional Dungeoneer" = explorer tous les Better Dungeons. [j]
 
 ## Mecaniques
-- `small_nether_dungeon` = feature a activer manuellement en config (desactivee par defaut). [m,c]
+- Petits donjons du Nether (`small_nether_dungeon`) : existent dans le mod depuis 1.19.2 [m], mais désactivés sur notre serveur (`smallNetherDungeon.enabled = false`) [c].
 
 ## Config serveur
 - `removeVanillaDungeons = true` : donjons vanilla desactives, remplaces par les Better Dungeons. [c]
