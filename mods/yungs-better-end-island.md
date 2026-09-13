@@ -25,9 +25,9 @@ la generation de l'ile de l'End (structures NBT placees par mixin/processeurs), 
 - Simple suppression des fichiers de la dimension End ne suffit pas : il faut lancer la commande. [m]
 
 ## Config serveur
-- `resummonedDragonDropsEgg = false` : pas d'oeuf de dragon a chaque re-invocation (defaut = true, desactive ici). [c]
+- `resummonedDragonDropsEgg = false` : pas d'œuf de dragon à chaque ré-invocation. [c]
 - `useVanillaSpawnPlatform = false`, `useVanillaEndGateways = false` : versions retravaillees utilisees (pas vanilla). [c]
-- `playBellSound = true`, `spawnCentralTowerInitially = true`, `spawnCentralTowerOnResummon = true` : defauts. [c]
+- `playBellSound = true`, `spawnCentralTowerInitially = true`, `spawnCentralTowerOnResummon = true`. [c]
 
-## Compat
-- Nullscape (installe sur ce pack) : compatible, cite explicitement par le mod. [m]
+## Pièges
+- `/end_island reset` : sauvegarder le monde avant (conseil explicite du mod). [m]
