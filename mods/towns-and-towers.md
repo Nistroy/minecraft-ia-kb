@@ -25,6 +25,6 @@ Pas de fichier de langue dans le jar : ids bruts, descriptif seulement. Dépend 
 
 ## Config serveur
 - Toutes les structures activées (`true`) dans `structure_enable_or_disable_new.json5` — aucune désactivée par nistroy. [c]
-- Espacement villages (`towns`) : `spacing: 51` (défaut 48), `separation: 12` (défaut 24) — un peu plus espacés en distance max mais bien plus fréquents en distance mini. [c]
-- Espacement avant-postes (`towers`) : `spacing: 48` (défaut), `separation: 12` (défaut 24) — plus fréquents que le défaut du mod. `frequency: 0.2`. [c]
+- Espacement villages (`towns`) : `spacing: 51` (défaut 48), `separation: 12` (défaut 24). [c]
+- Espacement avant-postes (`towers`) : `spacing: 48` (= défaut), `separation: 12` (défaut 24), `frequency: 0.2`. [c]
 - Structures « other » (`mimic_desert`, `wreckage_ocean`) : `spacing: 32` (défaut), `separation: 16` (défaut). [c]

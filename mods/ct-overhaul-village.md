@@ -4,7 +4,7 @@ nom: "ChoiceTheorem's Overhauled Village"
 namespaces: [ctov]
 version: 3.6.3
 cote: S
-resume: "Remplace villages + avant-postes pillards vanilla par des versions enrichies (3 tailles), 11 biomes de village + 11 d'avant-poste"
+resume: "Remplace villages + avant-postes pillards vanilla par des versions enrichies : 22 variantes de village en 3 tailles, 12 avant-postes"
 sources:
   m: https://modrinth.com/mod/ct-overhaul-village
   w: https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/wiki
@@ -14,19 +14,18 @@ sources:
 verifie: 2026-09-13
 ---
 
-`client_side: unsupported`, `server_side: required` : génération 100% serveur, rien à installer côté joueur. Dépend de `lithostitched`. [j,m]
+`client_side: unsupported`, `server_side: required` : génération 100 % serveur, rien à installer côté joueur. Dépend de `lithostitched`. [j,m]
 
 ## Ajoute
-- Villages en 3 tailles (petit/moyen/grand) pour 11 biomes : plage, forêt sombre, désert, jungle, badlands/mesa, montagne, champignon, plaines, savane, enneigé, marais, taïga (`structure.ctov.small/medium/large.village_<biome>`). [j]
-- Avant-postes de pillards enrichis pour 11 biomes : plage, forêt sombre, désert, jungle, badlands, montagne, plaines, savane, enneigé, marais, taïga (`structure.ctov.pillager_outpost_<biome>`). [j]
-- 106 fichiers de structure au total (`data/ctov/worldgen/structure/`) : villages/avant-postes + pièces de génération jigsaw associées. [j]
+- Villages en 3 tailles (`small`/`medium`/`large`), 22 variantes chacune : `beach`, `christmas`, `dark_forest`, `desert`, `desert_oasis`, `jungle`, `jungle_tree`, `mesa`, `mesa_fortified`, `mountain`, `mountain_alpine`, `mushroom`, `plains`, `plains_fortified`, `savanna`, `savanna_na`, `snowy_igloo`, `swamp`, `swamp_fortified`, `taiga`, `taiga_fortified`, `underground`. [j]
+- 12 avant-postes de pillards : `badlands`, `beach`, `dark_forest`, `desert`, `jungle`, `mesa`, `mountain`, `plains`, `savanna`, `snowy`, `swamp`, `taiga`. [j]
+- Structures ajoutées au tag vanilla `minecraft:village` (via `ctov:village`). [j]
 
 ## Où trouver
-- Ids réels : `ctov:small/village_<biome>`, `ctov:medium/village_<biome>`, `ctov:large/village_<biome>`, `ctov:pillager_outpost_<biome>`. Ex. `/locate structure ctov:large/village_plains`. [j]
-- Pas de nouveau structure_set dans le jar : le mod ajoute ses structures au tag vanilla `minecraft:village` (via `ctov:village`), donc génère à la place des villages/avant-postes vanilla. [j]
-- Variantes supplémentaires activées côté config : `desert_oasis`, `jungle_tree`, `mesa_fortified`, `mountain_alpine`, `savanna_na`, `snowy_igloo`, `swamp_fortified`, `taiga_fortified`, `christmas` (village de Noël saisonnier). [c]
+- Ids : `ctov:<taille>/village_<variante>`, `ctov:pillager_outpost_<biome>`. Ex. `/locate structure ctov:large/village_plains`. [j]
 
 ## Config serveur
-- Tailles activées : `generatesmallVillage`, `generatemediumVillage`, `generatelargeVillage`, `generatePillagerOutpost` toutes `true`. [c]
-- Poids de génération : petit village 10, moyen 4, grand 1, avant-poste 1 (petit village le plus fréquent). [c]
-- 21 variantes de village activées, 11 variantes d'avant-poste activées (voir `enabledvillage`/`enabledpillageroutpost` du fichier config). [c]
+- Villages petits/moyens/grands et avant-postes tous générés (`generate*Village`, `generatePillagerOutpost` = true). [c]
+- Poids : petit village 10, moyen 4, grand 1, avant-poste 1 → petits villages les plus fréquents. [c]
+- Villages activés : les 21 variantes sauf `underground`. [c]
+- Avant-postes activés : 11, tous sauf `mesa`. [c]
